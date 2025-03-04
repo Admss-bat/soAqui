@@ -1,0 +1,142 @@
+.bannerPrincipal  {
+	background-color: #fff;
+	width: 970px;
+	height: 636px;
+	
+}
+
+.bannerSec1{
+	width: 480px;
+	height: 562px;
+	float: left;
+}
+.bannerSec1 img{
+	width: 480px;
+	height: 562px;
+	float: left;
+}
+
+.bannerSec2{
+	margin-left: 2px;
+	width: 480px;
+	height: 280px;
+	float: left;	
+	position:relative;
+	
+}
+
+.bannerSec2 img{
+	margin-left: 2px;
+	width: 480px;
+	height: 280px;
+	float: left;	
+	position:relative;
+	
+}
+
+
+.bannerSec3{
+	margin-left: 2px;
+	width: 480px;
+	height: 280px;
+	float: left;	
+	position:relative;
+	margin-top:2px;
+}
+
+.bannerSec3 img{
+	margin-left: 2px;
+	width: 480px;
+	height: 280px;
+	float: left;	
+	position:relative;
+	margin-top:2px;
+	
+}
+
+
+
+.bannerPrincipal{
+	margin: 0px;
+}
+
+#textoBanner1{
+	color: #fff;
+	height: 70px;
+	border-radius: 5px 5px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+
+	position:absolute;
+	margin-top:492px;
+	font-size:14px;
+	
+}
+#textoBanner2{
+	color: #fff;
+	height: 70px;
+	border-radius: 8px 8px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+	position:absolute;
+	margin-top: 210px;
+	font-size:14px;
+	margin-left: 2px;
+	z-index:1;
+}
+#textoBanner3{
+	color: #fff;
+	height: 70px;
+	border-radius: 8px 8px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+	position:absolute;
+	margin-top:210px;
+	font-size:14px;
+	margin-left: 2px;
+	z-index:1;
+}
+
+#textoBanner1:hover{
+	color: #fff;
+	height: 80px;
+	border-radius: 5px 5px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+	margin-top:-50px;
+	position:absolute;
+	margin-top:482px;
+	margin-left: 0px;
+	font-size:16px;
+	transition: 0.5s;
+}
+#textoBanner2:hover{
+	color: #fff;
+	height: 80px;
+	border-radius: 8px 8px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+	position:absolute;
+	margin-top: 200px;
+	margin-left: 2px;
+	font-size:16px;
+	transition: 0.5s;
+}
+#textoBanner3:hover{
+	color: #fff;
+	height: 80px;
+	border-radius: 8px 8px 0 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgba(0,0,0,0.8); 
+	width:480px;
+	position:absolute;
+	margin-top:200px;
+	margin-left: 2px;
+	font-size:16px;
+	transition: 0.5s;
+}

@@ -1,0 +1,42 @@
+
+
+.anuncios div{
+	text-align:center;
+	background-color: #38B0DE;
+	border-radius:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.anuncios figcaption{
+	margin-top:15px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#fff;
+	font-size:22px;
+	height:25px;
+}
+.anuncios figcaption:hover{
+	margin-top:15px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#fff;
+	font-size:23px;
+	height:27px;
+	transition:0.5s;
+}
+
+.anuncios a{
+	text-decoration:none;
+}
+.anuncios li{
+	width:325px;
+	margin-bottom: 100px;
+	display: inline-block;
+	margin-left: 75px;
+	margin-top: 100px;
+	
+}
+
+img {
+	width:300px;
+	height:180px;
+}

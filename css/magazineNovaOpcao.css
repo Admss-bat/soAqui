@@ -1,0 +1,389 @@
+/* CABEÇALHO -----------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.topo{
+	position: static;
+	background-color: #3d8af7;
+	padding-bottom: 1px;
+}
+#logo{
+	width:160px;
+	height:85px;
+	margin-top: 20px;
+
+}
+.redesocial li a{
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+	
+}
+
+.redesocial{
+	position: absolute;
+	top: 5px;
+	right: 60px;
+}
+
+
+
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 65px;
+	margin-top: -50px;
+    z-index: 1;
+	border: 2px solid #000;
+}
+.menu-content-list{
+	padding-left:15px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	margin-top: -8px;
+}
+.menu-content-list a{
+	text-decoration: none;
+	color:#000;
+}
+.menu-content-list a:hover{
+	color:#75a9f9;
+}
+
+.menu-content-list li{
+	margin-bottom: 4px;
+	
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+#categorias {
+	margin-top: 0px;
+	background-color: #3d8af7;
+	padding-left:5px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+#subCategorias{
+	margin-top: -8px;
+	background-color: #3d8af7;
+	padding-left: 5px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.redesocial li{
+	float: right;
+	margin-left: 20px;
+}
+
+.redesocial a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+}
+
+.redesocial a[href*="twitter.com"]{
+	background-image: url(../img/twitter.png);
+}
+
+.redesocial a[href*="instagram.com"]{
+	background-image: url(../img/instagram.png);
+}
+
+.redesocial a[href*="plus.google.com"]{
+	background-image: url(../img/googleplus.png);
+}
+.redesocial a[href*="instagram.com"]{
+	background-image: url(../img/instagram.png);
+}
+
+#lupa{
+	width:15px;
+	height:16px;
+	position: absolute;
+	top: 81px;
+	left: 1080px;
+}
+
+
+#barra{
+	position: absolute;
+	top: 75px;
+	left: 1100px;
+	border-radius: 20px;
+	padding: 3px 3px 3px 15px;
+	
+}
+
+#botaoMenu{
+	width: 40px;
+	height: 41px;
+	position: absolute;
+	top: 37px;
+	left: 50px;
+}
+	
+	/*Efeito Grow*/
+	#botaoMenu:hover
+	{
+			-webkit-transform: scale(0.1);
+			-ms-transform: scale(0.1);
+			transform: scale(1.2);
+	}
+	a:hover
+	{
+			-webkit-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			transform: scale(1.2);
+			
+	}
+	
+	
+	
+	/*Fim efeito Grow*/
+
+
+
+/* FIM CABEÇALHO */
+
+
+/*SUB CABEÇALHO--------------------------------------------------------------------------------------------------------------------------------------------*/
+.subtopo{
+	position:relative;
+	background-color: #75a9f9;
+	top:-20px; 
+}
+
+	/*Sub-lista*/
+	.submenu li:hover ul,
+	.submenu ul li:hover ul{
+	display:block;
+
+	}
+
+	.submenu li ul, .submenu li:hover ul{
+	display:none;
+	position:absolute;
+	width: 150px;
+	top: 27px;
+	left: 230px;
+	}
+
+/*Fim Sub-lista*/
+
+
+ul{
+	list-style: none;
+}
+.submenu a{
+	text-decoration: none;
+	color: #000000;
+	
+	
+	
+}
+
+.submenu a:hover {
+	
+	color: #929292;
+	opacity:1;
+}
+	
+.submenu ul li {
+	display: inline;
+	
+	
+	
+	
+
+}
+.submenu ul{
+	padding: 5px;
+	padding-left: 110px;
+}
+.submenu li{
+	padding-left: 200px;
+}
+/*FIM SUB CABEÇALHO */
+#rabisco{
+	width:450px;
+	height:150px;
+	margin-left: 470px;
+	margin-top: -11px;
+	padding-top:50px;
+}
+.mapaUsualidade{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	padding-left: 100px;
+	margin-top: -15px;
+}
+
+#sobreloja{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1180px;
+	background: linear-gradient(white,/*#cdcdcd*/#1E90FF,white);
+	padding-bottom: 40px;
+}
+
+.anufoto{
+	
+	padding: 5px 10px 0 5px;
+	position: relative;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.anufoto h2 {
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+.mapa h2{
+	font-size: 20px;
+	padding-top:10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.mapa p{
+	
+	padding-bottom:30px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.mapa iframe{
+	height: 500px;
+}
+#fotos h2{
+	padding: 10px;
+	font-size: 20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.descricao p{
+	padding-left: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:  justify;
+	text-indent: 20px;
+	
+}
+
+.servico ul li, .contato ul li, .sociais ul li{
+	padding: 0 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+	
+.descricao h2{
+	padding: 20px 40px 0px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#3d8af7;
+}
+
+.servico{
+	float: left;
+	padding-bottom: 20px;
+}
+
+.contato{
+	float: left;
+}
+
+.servico,.descricao,.contato,.sociais{
+	margin: 0 50px 0 0;
+	padding-top: 15px;
+}
+
+.sociais ul li{
+	display: inline;
+	
+}
+
+.sociais{
+	padding-bottom: 5px;
+	
+}
+.sociais ul li{
+	padding: 0 10px;
+}
+
+.servico h2{
+	padding: 20px 40px 0px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#3d8af7;
+}
+.contato h2{
+	padding: 20px 40px 0px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#3d8af7;
+}
+.sociais h2{
+	padding: 20px 40px 0px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#3d8af7;
+}
+
+.sociais ul{
+	margin-bottom: 50px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.servico ul{
+	margin-bottom: 50px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.contato ul{
+	margin-bottom: 30px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+
+/*RODAPÉ-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contatoRodape{
+	color:#999999;
+	padding: 50px;
+	padding-top:150px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+.contatoRodape  ul{
+	
+	display:inline-block;
+}
+
+.contatoRodape li{
+	color:#3333FF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-left:10px;
+	
+}
+
+ #logoRodape{
+	width:60px;
+	height:40px;
+	padding-top:10px;
+	padding-left:50px
+}
+#copyright{
+	color:#fff;
+	padding-left:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#rodape{
+	background-color:#3366FF;
+	font-size:15px;
+	padding:5px;
+	
+}
+
+
+
+
